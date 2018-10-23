@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	min-height: 40px;
+	min-width: 40px;
+}
+
+.items {
+	border: 2px solid #131313;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+}
+
+#blue {
+	background: linear-gradient(0deg, blue, white);
+}
+
+#green {
+	background: linear-gradient(0deg, green, white);;
+}
+
+#red {
+	background: linear-gradient(0deg, red, white);;
+}
+
+#yellow {
+	background: linear-gradient(0deg, yellow, white);;
+}
+
+#purple {
+	background: linear-gradient(0deg, purple, white);;
+}
+
+#orange {
+	background: linear-gradient(0deg, orange, white);;
+}
+
+#turquoise {
+	background: linear-gradient(0deg, turquoise, white);;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+}
